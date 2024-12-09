@@ -2,7 +2,7 @@ body {
     background-color: black;
     color: #00FF00;
     font-family: 'Courier New', Courier, monospace;
-    background-image: url('../assets/images/body.png');
+    background-image: url('../images/body.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -34,14 +34,14 @@ button:hover {
 }
 
 header {
-    background-image: url('../assets/images/header.png');
+    background-image: url('../images/header.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 footer {
-    background-image: url('../assets/images/footer.png');
+    background-image: url('../images/footer.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
