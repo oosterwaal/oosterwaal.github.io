@@ -1,13 +1,3 @@
-body {
-    background-color: black;
-    color: #00FF00;
-    font-family: 'Courier New', Courier, monospace;
-    background-image: url('../images/body.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-}
-
 h1, h2, h3, h4, h5, h6 {
     color: #00FF00;
 }
@@ -33,8 +23,24 @@ button:hover {
     color: black;
 }
 
+body {
+    background-color: black;
+    color: #00FF00;
+    font-family: 'Courier New', Courier, monospace;
+    min-height: 420vh;
+    background-image: url('../images/body.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
 header {
     background-image: url('../images/header.png');
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    min-height: 320vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -42,6 +48,10 @@ header {
 
 footer {
     background-image: url('../images/footer.png');
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
