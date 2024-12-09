@@ -2,6 +2,10 @@ body {
     background-color: black;
     color: #00FF00;
     font-family: 'Courier New', Courier, monospace;
+    background-image: url('assets/images/background-image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -40,3 +44,5 @@ footer {
     background-image: url('assets/images/footer.png');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+}
