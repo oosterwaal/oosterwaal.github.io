@@ -28,7 +28,7 @@ body {
     color: #00FF00;
     font-family: 'Courier New', Courier, monospace;
     background-image: url('../images/body.png');
-    width: 100%
+    width: 99%
     display: flex;
     background-size: cover;
     background-repeat: no-repeat;
@@ -39,8 +39,8 @@ header {
     background-image: url('../images/header.png');
     position: absolute;
     top: 0;
-    min-heigth: 320px;
-    width: 100%;
+    min-height: 320px;
+    width: 99%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -51,7 +51,8 @@ footer {
     background-image: url('../images/footer.png');
     position: absolute;
     bottom: 0;
-    width: 100%;
+    min-height: 340px;
+    width: 99%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
