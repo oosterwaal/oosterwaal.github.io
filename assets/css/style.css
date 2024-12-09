@@ -38,6 +38,7 @@ header {
     background-image: url('../images/header.png');
     position: absolute;
     top: 0;
+    min-heigth: 320px;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
