@@ -29,6 +29,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     background-image: url('../images/body.png');
     width: 100%
+    display: flex;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -49,7 +50,7 @@ header {
 footer {
     background-image: url('../images/footer.png');
     position: absolute;
-    bottom: 0;
+    bottom: 10;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
