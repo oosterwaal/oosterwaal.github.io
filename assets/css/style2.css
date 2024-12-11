@@ -1,75 +1,65 @@
-
 * {
   box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+header {
+    background-image: url('../images/logo3.png');
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 body {
-    background-color: black;
-    color: #00FF00;
-    font-family: 'Courier New', Courier, monospace;
+  background-color: black;
+  color: #00FF00;
+  font-family: 'Courier New', Courier, monospace;
 }
 
-/* Style the header */
-.header {
-    header {
-        background-image: url('../images/logo3.png');
-        min-height: 300px;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #00ff00;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #0b5e00;
+  }
+  
+  .active {
+    background-color: #300000;
+  }
 
-h1, h2, h3, h4, h5, h6 {
-    color: #00FF00;
-}
+/* Style the top navigation bar */
 .topnav {
-    a {
-        color: #00FF00;
-        text-decoration: none;
-    }
-    
-    a:hover {
-        text-decoration: underline;
-    }
-    
-    button {
-        background-color: black;
-        color: #00FF00;
-        border: 1px solid #00FF00;
-        font-family: 'Courier New', Courier, monospace;
-    }
-    
-    button:hover {
-        background-color: #00FF00;
-        color: black;
-    }
   overflow: hidden;
   background-color: #000000;
-  }
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 100%;
-  padding: 10px;
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+
+
+/* Style the content */
+.content {
+  background-color: #000000;
+  padding: 10px;
+  height: 200px; /* Should be removed. Only for demonstration */
 }
 
 /* Style the footer */
 .footer {
-  background-color: #f1f1f1;
+  background-color: #000000;
   padding: 10px;
-  text-align: center;
-}
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
 }
