@@ -2,10 +2,6 @@ body {
     background-color: black;
     color: #00FF00;
     font-family: 'Courier New', Courier, monospace;
-    background-image: url('../images/background.png');
-    background-size: fill;
-    background-repeat: repeat-x;
-    background-attachment: fixed;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -34,8 +30,8 @@ button:hover {
 }
 
 header {
-    background-image: url('../images/logo.png');
-    min-height: 167px;
+    background-image: url('../images/logo2.png');
+    min-height: 224px;
     background-repeat: no-repeat;
     background-position: center;
 }
