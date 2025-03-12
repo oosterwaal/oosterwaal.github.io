@@ -64,7 +64,11 @@
     overflow: hidden;
     background-color: #000000;
   }
-  
+
+  .item3 {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+}
   .main-content {
     display: grid;
     grid-template-columns: 2fr 1fr; /* This divides the space */
