@@ -68,7 +68,7 @@
   .main-content {
     display: grid;
     grid-template-columns: 2fr 1fr; /* This divides the space */
-    gap: 10px; /* Adds space between the image and text */
+    gap: 5px; /* Adds space between the image and text */
   }
   
   .text-box {
