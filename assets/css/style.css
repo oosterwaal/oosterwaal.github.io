@@ -65,7 +65,32 @@
     background-color: #000000;
   }
   
+  .main-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* This divides the space */
+    gap: 10px; /* Adds space between the image and text */
+  }
   
+  .text-box {
+    /* Controls the text box */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .image-box {
+    /* Controls the image box */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+    
+  .image-box img {
+    max-width: 100%; /* Ensures the image takes up the available space */
+    height: auto;
+  }
   
   /* Style the content */
   .content {
@@ -76,7 +101,7 @@
   
   /* Style the footer */
   .footer {
-    align: center;
+    box-align: center;
     margin-bottom: 10%;
     background-color: #000000;
     padding: 10px;
